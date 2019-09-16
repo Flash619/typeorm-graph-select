@@ -1,0 +1,40 @@
+{
+  "name": "typeorm-graph-select",
+  "version": "1.0.0",
+  "description": "A toolset for selecting records using a graph with TypeORM.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest --config jestconfig.json"
+  },
+  "keywords": [
+    "typeorm",
+    "graphql",
+    "graph",
+    "query",
+    "select"
+  ],
+  "author": "Flash619",
+  "license": "MIT",
+  "dependencies": {
+    "typeorm": "^0.2.18"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.3"
+  }
+}
