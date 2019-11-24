@@ -2,6 +2,7 @@
   "name": "typeorm-graph-select",
   "version": "1.0.0",
   "description": "A toolset for selecting records using a graph with TypeORM.",
+  "repository": "https://github.com/Flash619/typeorm-graph-select",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
@@ -23,10 +24,11 @@
   "author": "Flash619",
   "license": "MIT",
   "dependencies": {
-    "typeorm": "^0.2.18"
+    "typeorm": "0.2.20"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
+    "@types/node": "^12.12.12",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
     "eslint": "^6.3.0",
