@@ -24,7 +24,7 @@
   "author": "Flash619",
   "license": "MIT",
   "dependencies": {
-    "typeorm": "0.2.20"
+    "typeorm": "0.2.25"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
