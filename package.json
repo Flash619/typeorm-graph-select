@@ -24,7 +24,7 @@
   "author": "Flash619",
   "license": "MIT",
   "dependencies": {
-    "typeorm": "0.2.25"
+    "typeorm": "0.2.30"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
@@ -36,7 +36,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
-    "ts-jest": "^24.0.2",
+    "ts-jest": "^26.5.6",
     "typescript": "^3.6.3"
   }
 }
